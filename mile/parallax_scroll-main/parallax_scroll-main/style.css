@@ -4,7 +4,7 @@ body{
     background-color: #210002;
     font-family: Poppins;
     font-size: 15px;
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 .banner{
     height: 100vh;
@@ -129,11 +129,14 @@ body{
 }
 
 .header{
-            width: 100%;
-            height: 10vh;
-            font-size: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: aliceblue;
-        }
+        width: 100%;
+        height: 10vh;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffaf1b;      
+    }
+.header a{
+    color: #fff;
+}
